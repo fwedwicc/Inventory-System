@@ -1,13 +1,33 @@
 body {
   background-color: #fff2dc;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1b18a;
+  border: 0px none #ffffff;
+  border-radius: 29px;
+}
+::-webkit-scrollbar-track {
+  background: #fff2dc;
+  border: 0px none #ffffff;
+  border-radius: 28px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
 
 .container-shadow {
   background-color: #fefaf1;
   -webkit-box-shadow: 14px 14px 16px 5px #F9E6C4;
   box-shadow: 14px 14px 16px 5px #F9E6C4;
 }
-
 .cards {
   background-color: #feebc9;
   color: #775a3a;
@@ -21,4 +41,8 @@ body {
 }
 .container-text {
   color: #775a3a;
+}
+.inputs {
+  background-color: black;
+  border: solid 1px #E2C695;
 }

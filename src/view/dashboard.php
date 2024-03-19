@@ -12,8 +12,10 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
   <!-- General css -->
   <link rel="stylesheet" href="../../assets/css/style.css">
+  <!-- Store Icon -->
+  <link rel="icon" type="image/png" href="../../assets/image/store-icon.png" />
 </head>
-<!-- Admin side and navigation bar -->
+<!-- Side and navigation bar -->
 <?php
 include_once './navigation.php';
 ?>
@@ -21,7 +23,7 @@ include_once './navigation.php';
 <body>
   <div class="p-6 sm:ml-64">
     <!-- Main container -->
-    <div class="rounded-lg dark:border-gray-700 h-auto space-y-5">
+    <div class="rounded-lg h-auto space-y-5">
       <!-- Page content -->
       <div class="grid grid-cols-2 gap-5">
         <!-- Stock and expired items container -->
@@ -45,17 +47,17 @@ include_once './navigation.php';
             <div>
               <!-- Time -->
               <label class="block mb-2 text-sm font-medium container-text">Time</label>
-              <span class="time-date text-sm rounded-lg block w-full p-2.5">11:45am</span>
+              <span class="time-date text-xl font-bold container-text rounded-lg block w-full p-2.5 px-4">11:45am</span>
             </div>
             <div>
               <!-- Date -->
               <label class="block mb-2 text-sm font-medium container-text">Date</label>
-              <span class="time-date text-sm rounded-lg block w-full p-2.5">03/18/2024</span>
+              <span class="time-date text-xl font-bold container-text rounded-lg block w-full p-2.5 px-4">03/18/2024</span>
             </div>
           </div>
           <!-- Lists -->
           <div class="flex items-center justify-between p-5 pt-14 w-full h-40 container-shadow rounded-lg overflow-y-auto px-8">
-            <ul class="space-y-1 text-gray-500 list-none list-inside dark:text-gray-400">
+            <ul class="space-y-1 list-none list-inside">
               <li class="container-text">
                 <span class="container-text font-bold">Admin: </span>Update a product: Coffee Grounds: 2 Packs
               </li>
@@ -72,7 +74,7 @@ include_once './navigation.php';
           </div>
         </div>
       </div>
-      <!--  -->
+      <!-- Lower side containers -->
       <div class="grid grid-cols-2 gap-5">
         <!-- 2 container for graph -->
         <div class="flex items-center justify-center h-96 rounded-lg container-shadow p-8 flex-col space-y-5">
@@ -83,10 +85,9 @@ include_once './navigation.php';
         </div>
       </div>
     </div>
-
   </div>
 
-
+  <script src="../../assets/css/tailwind-colors.js"></script>
   <!-- Flowbite cdn -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>

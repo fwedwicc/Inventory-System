@@ -10,26 +10,6 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <!-- Flowbite cdn -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-  <!-- Tailwind Colors -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            sideBar: '#d1b08b',
-            darkText: '#401e0b',
-            logoutBtn: '#fbead4',
-            logoutBtnHover: '#f4cfa2',
-            primaryBtn: '#8e5e44',
-            background: '#fef0db',
-            borderRing: '#8e7555',
-            navHover: '#b0926b',
-            navOutline: '#b89d76',
-          }
-        }
-      }
-    }
-  </script>
 </head>
 
 <body class="bg-background">
@@ -106,7 +86,7 @@
       Logs
     </button>
   </div>
-
+  <script src="../../assets/css/tailwind-colors.js"></script>
   <!-- Flowbite cdn -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
