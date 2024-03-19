@@ -19,6 +19,8 @@
           contText: '#775a3a',
           primaryBtn: '#8e5e44',
           primaryHover: '#6b3e26',
+          darkPlaceHolder: '#997950',
+
           
 
         }
