@@ -1,0 +1,24 @@
+body {
+  background-color: #fff2dc;
+}
+
+.container-shadow {
+  background-color: #fefaf1;
+  -webkit-box-shadow: 14px 14px 16px 5px #F9E6C4;
+  box-shadow: 14px 14px 16px 5px #F9E6C4;
+}
+
+.cards {
+  background-color: #feebc9;
+  color: #775a3a;
+}
+.cards label{
+  color: #775a3a;
+}
+.time-date{
+  background-color: #feebc9;
+  border: solid 1px #b5966e;
+}
+.container-text {
+  color: #775a3a;
+}
