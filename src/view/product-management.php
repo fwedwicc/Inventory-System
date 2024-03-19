@@ -125,10 +125,10 @@ include_once './navigation.php';
         </div>
         <!-- Table -->
         <div class="col-span-7">
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <div class="relative overflow-x-auto container-shadow sm:rounded-lg">
             <div class="max-h-[409px] overflow-y-auto">
-              <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 sticky top-0">
+              <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">
+                <thead class="text-xs text-darkText uppercase bg-placeHolder sticky top-0">
                   <tr>
                     <th scope="col" class="px-6 py-3">
                       ID
@@ -160,8 +160,8 @@ include_once './navigation.php';
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
                       -
                     </th>
                     <td class="px-6 py-4">
@@ -189,8 +189,8 @@ include_once './navigation.php';
                       -
                     </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
                       -
                     </th>
                     <td class="px-6 py-4">
@@ -218,8 +218,8 @@ include_once './navigation.php';
                       -
                     </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
                       -
                     </th>
                     <td class="px-6 py-4">
@@ -247,124 +247,8 @@ include_once './navigation.php';
                       -
                     </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                      -
-                    </th>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                      -
-                    </th>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                      -
-                    </th>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                      -
-                    </th>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                    <td class="px-6 py-4">
-                      -
-                    </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
                       -
                     </th>
                     <td class="px-6 py-4">

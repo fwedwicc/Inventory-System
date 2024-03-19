@@ -49,20 +49,20 @@
   <!-- Navigation bar -->
   <div class="grid grid-cols-5 lg:ml-64 md:ml-64 px-5 pt-5" role="group">
     <!-- Dashboard -->
-    <button type="button" class="inline-flex justify-center items-center py-5 text-sm font-medium text-darkText bg-sideBar border border-navOutline rounded-s-lg hover:bg-navHover hover:text-white focus:z-10 focus:ring-4 focus:ring-borderRing focus:bg-navHover focus:text-white">
+    <a href="./dashboard.php" type="button" class="inline-flex justify-center items-center py-5 text-sm font-medium text-darkText bg-sideBar border border-navOutline rounded-s-lg hover:bg-navHover hover:text-white focus:z-10 focus:ring-4 focus:ring-borderRing focus:bg-navHover focus:text-white">
       <svg class="w-5 h-5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
         <path fill-rule="evenodd" d="M4.857 3A1.857 1.857 0 0 0 3 4.857v4.286C3 10.169 3.831 11 4.857 11h4.286A1.857 1.857 0 0 0 11 9.143V4.857A1.857 1.857 0 0 0 9.143 3H4.857Zm10 0A1.857 1.857 0 0 0 13 4.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 21 9.143V4.857A1.857 1.857 0 0 0 19.143 3h-4.286Zm-10 10A1.857 1.857 0 0 0 3 14.857v4.286C3 20.169 3.831 21 4.857 21h4.286A1.857 1.857 0 0 0 11 19.143v-4.286A1.857 1.857 0 0 0 9.143 13H4.857Zm10 0A1.857 1.857 0 0 0 13 14.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 21 19.143v-4.286A1.857 1.857 0 0 0 19.143 13h-4.286Z" clip-rule="evenodd" />
       </svg>
       Dashboard
-    </button>
+    </a>
     <!-- Product Management -->
-    <button type="button" class="inline-flex justify-center items-center py-5 text-sm font-medium text-darkText bg-sideBar border-t border-b border-l border-navOutline hover:bg-navHover hover:text-white focus:z-10 focus:ring-4 focus:ring-borderRing focus:bg-navHover focus:text-white">
+    <a href="./product-management.php" type="button" class="inline-flex justify-center items-center py-5 text-sm font-medium text-darkText bg-sideBar border-t border-b border-l border-navOutline hover:bg-navHover hover:text-white focus:z-10 focus:ring-4 focus:ring-borderRing focus:bg-navHover focus:text-white">
       <svg class="w-5 h-5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
         <path fill-rule="evenodd" d="M20 10H4v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8ZM9 13v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
         <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2Z" />
       </svg>
       Product Management
-    </button>
+    </a>
     <!-- Product List -->
     <button type="button" class="inline-flex justify-center items-center py-5 text-sm font-medium text-darkText bg-sideBar border-t border-b border-l border-navOutline hover:bg-navHover hover:text-white focus:z-10 focus:ring-4 focus:ring-borderRing focus:bg-navHover focus:text-white">
       <svg class="w-5 h-5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">

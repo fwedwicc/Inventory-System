@@ -14,7 +14,7 @@
           navOutline: '#b89d76',
           inputColor: '#fef0da',
           inputOutline: '#e2c695',
-          placeHolder: '#d1b18a',
+          placeHolder: '#d1b18a', 
           inputFocus: '#b5966e',
           contText: '#775a3a',
           primaryBtn: '#8e5e44',
