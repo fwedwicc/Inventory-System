@@ -34,14 +34,14 @@ include_once './sidebar.php';
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
               </svg>
             </div>
-            <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm font-medium rounded-lg bg-placeHolder focus:ring-3 focus:ring-primaryBtn focus:border-primaryBtn border-none text-darkText placeholder-darkPlaceHolder" placeholder="Search Products" required />
+            <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm font-medium rounded-lg bg-inputColor focus:ring-3 focus:ring-primaryBtn focus:border-primaryBtn border border-sideBar text-darkText placeholder-darkPlaceHolder" placeholder="Search Products" required />
             <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-primaryBtn hover:bg-primaryHover focus:outline-none focus:ring-primaryBtn font-medium rounded text-sm px-4 py-2">Search</button>
           </div>
           <!-- Table -->
           <div class="relative overflow-x-auto container-shadow sm:rounded-lg col-span-2">
             <div class="h-[600px] overflow-y-auto">
               <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">
-                <thead class="text-xs text-darkText uppercase bg-placeHolder sticky top-0">
+                <thead class="text-xs text-darkText uppercase brownn sticky top-0">
                   <tr>
                     <th scope="col" class="px-6 py-3">
                       ID

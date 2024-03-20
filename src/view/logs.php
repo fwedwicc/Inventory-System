@@ -19,14 +19,15 @@
 <?php
 include_once './sidebar.php';
 ?>
+
 <body>
   <div class="sm:ml-64">
     <!-- Main container -->
-    <div class="border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 h-screen space-y-5 p-6">
+    <div class="h-screen space-y-5 p-6">
       <!-- Parent container -->
       <div class="grid grid-cols-2 h-[100%] space-x-5">
         <!-- Left side -->
-        <div class="col-span-1 border border-black border-solid container-shadow rounded-lg">
+        <div class="col-span-1 container-shadow rounded-lg">
           <div class="rounded-lg w-full p-6">
             <!-- Print Button -->
             <button type="button" class="px-7 py-3 w-[10rem] text-sm font-medium text-center inline-flex items-center justify-center text-white bg-primaryBtn rounded-lg hover:bg-primaryHover focus:ring-4 focus:outline-none focus:ring-primaryBtn">
@@ -35,13 +36,13 @@ include_once './sidebar.php';
               </svg>
               Print
             </button>
-            <h5 class="text-3xl font-bold tracking-tight text-center my-5">Inventory Logs</h5>
+            <h5 class="text-3xl font-bold tracking-tight text-center my-5 text-brown">Inventory Logs</h5>
             <!-- Table -->
             <div class="col-span-7">
               <div class="relative overflow-x-auto container-shadow sm:rounded-lg">
                 <div class="max-h-[480px] overflow-y-auto">
                   <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">
-                    <thead class="text-xs text-darkText uppercase bg-placeHolder sticky top-0">
+                    <thead class="text-xs text-darkText uppercase brownn sticky top-0">
                       <tr>
                         <th scope="col" class="px-6 py-3">
                           ID
@@ -234,15 +235,15 @@ include_once './sidebar.php';
           </div>
         </div>
         <!-- Actions form / Right side -->
-        <div class="col-span-1 border border-black border-solid rounded-lg grid place-content-center">
+        <div class="col-span-1 rounded-lg grid place-content-center">
           <div class="container-shadow p-12 pr-16 rounded-lg">
             <div class="grid grid-cols-2 space-y-4">
               <!-- First col -->
               <div class="col-span-2">
                 <!-- Category -->
-                <label for="countries" class="block mb-2 text-sm font-medium text-darkText">Category</label>
+                <label for="category" class="block mb-2 text-sm font-medium text-brown">Category</label>
                 <div class="grid grid-cols-2 space-x-4">
-                  <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <select id="category" class="bg-inputColor border border-inputOutline text-brown font-medium text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5">
                     <option>Category 1</option>
                     <option>Category 2</option>
                     <option>Category 3</option>
@@ -257,9 +258,9 @@ include_once './sidebar.php';
               <!-- Second col -->
               <div class="col-span-2">
                 <!-- Stocks -->
-                <label for="countries" class="block mb-2 text-sm font-medium text-darkText">Stocks</label>
+                <label for="stock" class="block mb-2 text-sm font-medium text-brown">Stocks</label>
                 <div class="grid grid-cols-2 space-x-4">
-                  <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <select id="stock" class="bg-inputColor border border-inputOutline text-brown font-medium text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5">
                     <option>Stocks 1</option>
                     <option>Stocks 2</option>
                     <option>Stocks 3</option>
