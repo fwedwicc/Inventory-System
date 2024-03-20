@@ -15,7 +15,7 @@
   <!-- Store Icon -->
   <link rel="icon" type="image/png" href="../../assets/image/store-icon.png" />
 </head>
-<!-- Side and navigation bar -->
+<!-- Sidebar -->
 <?php
 include_once './navigation.php';
 ?>

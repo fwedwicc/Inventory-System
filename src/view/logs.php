@@ -15,9 +15,10 @@
   <!-- Store Icon -->
   <link rel="icon" type="image/png" href="../../assets/image/store-icon.png" />
 </head>
-<!-- Side and navigation bar -->
-
-
+<!-- Sidebar -->
+<?php
+include_once './sidebar.php';
+?>
 <body>
   <div class="sm:ml-64">
     <!-- Main container -->

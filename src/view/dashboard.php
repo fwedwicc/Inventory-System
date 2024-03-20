@@ -17,7 +17,7 @@
 </head>
 <!-- Side and navigation bar -->
 <?php
-include_once './navigation.php';
+include_once './sidebar.php';
 ?>
 
 <body>
@@ -77,10 +77,10 @@ include_once './navigation.php';
       <!-- Lower side containers -->
       <div class="grid grid-cols-2 gap-5">
         <!-- 2 container for graph -->
-        <div class="flex items-center justify-center h-96 rounded-lg container-shadow p-8 flex-col space-y-5">
+        <div class="flex items-center justify-center h-[360px] rounded-lg container-shadow p-8 flex-col space-y-5">
 
         </div>
-        <div class="flex items-center justify-center h-96 rounded-lg container-shadow p-8 flex-col space-y-5">
+        <div class="flex items-center justify-center h-[360px] rounded-lg container-shadow p-8 flex-col space-y-5">
 
         </div>
       </div>
