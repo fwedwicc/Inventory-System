@@ -3,12 +3,13 @@
     theme: {
       extend: {
         colors: {
+          background: '#fdfdfd',
           sideBar: '#d1b08b',
           darkText: '#401e0b',
           logoutBtn: '#fbead4',
           logoutBtnHover: '#f4cfa2',
           primaryBtn: '#8e5e44',
-          background: '#fef0db',
+          
           borderRing: '#8e7555',
           navHover: '#b0926b',
           navOutline: '#b89d76',
@@ -20,7 +21,7 @@
           primaryBtn: '#8e5e44',
           primaryHover: '#6b3e26',
           darkPlaceHolder: '#997950',
-
+          navSide: '#dba76d',
           
 
         }

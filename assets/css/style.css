@@ -1,6 +1,19 @@
 body {
-  background-color: #fff2dc;
+  background-color: #fdfdfd;
 }
+.side-bar {
+  background-color:  #dba76d;
+  color: #3c2a21;
+}
+.nav-button:hover {
+  background-color: #ca965c;
+  color: #ffffff;
+}
+.secondary-btn:hover {
+  background-color: #ca965c;
+  color: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -24,8 +37,8 @@ body {
 }
 
 .container-shadow {
-  background-color: #fefaf1;
-  -webkit-box-shadow: 14px 14px 16px 5px #F9E6C4;
+  background-color: #ffffff;
+  -webkit-box-shadow: 14px 14px 16px 5px #fbecd2;
   box-shadow: 14px 14px 16px 5px #F9E6C4;
 }
 .cards {
