@@ -17,7 +17,7 @@
 </head>
 <!-- Sidebar -->
 <?php
-include_once './navigation.php';
+include_once './sidebar.php';
 ?>
 
 <body>
@@ -39,7 +39,7 @@ include_once './navigation.php';
           </div>
           <!-- Table -->
           <div class="relative overflow-x-auto container-shadow sm:rounded-lg col-span-2">
-            <div class="max-h-[521px] overflow-y-auto">
+            <div class="h-[600px] overflow-y-auto">
               <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">
                 <thead class="text-xs text-darkText uppercase bg-placeHolder sticky top-0">
                   <tr>
@@ -198,6 +198,34 @@ include_once './navigation.php';
                       -
                     </td>
                   </tr>
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
+                      -
+                    </th>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                  </tr>
+                  <tr class="bg-red border-b border-inputOutline">
+                    <th scope="row" class="px-6 py-4 font-medium text-darkText whitespace-nowrape">
+                      -
+                    </th>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                    <td class="px-6 py-4">
+                      -
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -207,7 +235,7 @@ include_once './navigation.php';
         <div class="col-span-3">
           <div class="h-auto space-y-5">
             <!-- Product Image -->
-            <div class="container-shadow rounded-lg w-full h-56"></div>
+            <div class="container-shadow rounded-lg w-full h-[303px]"></div>
             <!-- First table -->
             <div class="relative overflow-x-auto container-shadow sm:rounded-lg col-span-2">
               <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">

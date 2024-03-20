@@ -15,9 +15,9 @@
   <!-- Store Icon -->
   <link rel="icon" type="image/png" href="../../assets/image/store-icon.png" />
 </head>
-<!-- Side and navigation bar -->
+<!-- Sidebar -->
 <?php
-include_once './navigation.php';
+include_once './sidebar.php';
 ?>
 
 <body>
@@ -125,7 +125,7 @@ include_once './navigation.php';
         <!-- Table -->
         <div class="col-span-7">
           <div class="relative overflow-x-auto container-shadow sm:rounded-lg">
-            <div class="max-h-[409px] overflow-y-auto">
+            <div class="h-[409px] overflow-y-auto">
               <table class="w-full text-sm font-medium text-left rtl:text-right text-primaryBtn">
                 <thead class="text-xs text-darkText uppercase bg-placeHolder sticky top-0">
                   <tr>
