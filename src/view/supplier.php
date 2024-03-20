@@ -173,11 +173,11 @@ include_once './sidebar.php';
                     </td>
                     <td class="flex items-center px-6 py-4 space-x-3">
                       <!-- Edit -->
-                      <button type="button" data-modal-target="edit-modal" data-modal-toggle="edit-modal">
+                      <a href="./edit-supplier.php" type="button">
                         <svg class="w-6 h-6 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14.304 4.844 2.852 2.852M7 7H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-4.5m2.409-9.91a2.017 2.017 0 0 1 0 2.853l-6.844 6.844L8 14l.713-3.565 6.844-6.844a2.015 2.015 0 0 1 2.852 0Z" />
                         </svg>
-                      </button>
+                      </a>
                       <!-- Remove -->
                       <button>
                         <svg class="w-5 h-5 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -207,11 +207,11 @@ include_once './sidebar.php';
                     </td>
                     <td class="flex items-center px-6 py-4 space-x-3">
                       <!-- Edit -->
-                      <button type="button" data-modal-target="edit-modal" data-modal-toggle="edit-modal">
+                      <a href="./edit-supplier.php" type="button">
                         <svg class="w-6 h-6 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14.304 4.844 2.852 2.852M7 7H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-4.5m2.409-9.91a2.017 2.017 0 0 1 0 2.853l-6.844 6.844L8 14l.713-3.565 6.844-6.844a2.015 2.015 0 0 1 2.852 0Z" />
                         </svg>
-                      </button>
+                      </a>
                       <!-- Remove -->
                       <button>
                         <svg class="w-5 h-5 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -241,11 +241,11 @@ include_once './sidebar.php';
                     </td>
                     <td class="flex items-center px-6 py-4 space-x-3">
                       <!-- Edit -->
-                      <button type="button" data-modal-target="edit-modal" data-modal-toggle="edit-modal">
+                      <a href="./edit-supplier.php" type="button">
                         <svg class="w-6 h-6 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14.304 4.844 2.852 2.852M7 7H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-4.5m2.409-9.91a2.017 2.017 0 0 1 0 2.853l-6.844 6.844L8 14l.713-3.565 6.844-6.844a2.015 2.015 0 0 1 2.852 0Z" />
                         </svg>
-                      </button>
+                      </a>
                       <!-- Remove -->
                       <button>
                         <svg class="w-5 h-5 text-darkText" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -256,73 +256,6 @@ include_once './sidebar.php';
                   </tr>
                 </tbody>
               </table>
-              <!-- Edit Modal -->
-              <div id="edit-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                <div class="relative p-4 w-full max-w-2xl max-h-full">
-                  <!-- Modal content -->
-                  <div class="relative bg-white rounded-lg shadow container-shadow">
-                    <!-- Modal header -->
-                    <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t border-inputOutline">
-                      <h3 class="text-xl font-bold text-brown">
-                        Edit Supplier
-                      </h3>
-                      <button type="button" class="text-brown bg-transparent hover:bg-inputColor rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="edit-modal">
-                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                        </svg>
-                        <span class="sr-only">Close modal</span>
-                      </button>
-                    </div>
-                    <!-- Modal body -->
-                    <div class="p-4 md:p-5 space-y-4">
-                      <!-- First row -->
-                      <div class="grid lg:grid-cols-2 grid-cols-1 lg:space-x-4">
-                        <div class="col-span-1 mb-3">
-                          <label for="first_name" class="block mb-2 text-sm font-medium container-text">Name</label>
-                          <input type="text" id="first_name" class="text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5 bg-inputColor border border-inputOutline placeholder-placeHolder text-contText font-medium" placeholder="" required />
-                        </div>
-                        <div class="col-span-1 mb-3">
-                          <label for="first_name" class="block mb-2 text-sm font-medium container-text">Mobile No.</label>
-                          <input type="text" id="first_name" class="text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5 bg-inputColor border border-inputOutline placeholder-placeHolder text-contText font-medium" placeholder="" required />
-                        </div>
-                      </div>
-                      <!-- Second row -->
-                      <div class="grid lg:grid-cols-2 grid-cols-1 lg:space-x-4">
-                        <div class="col-span-1 mb-3">
-                          <label for="first_name" class="block mb-2 text-sm font-medium container-text">Address</label>
-                          <input type="text" id="first_name" class="text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5 bg-inputColor border border-inputOutline placeholder-placeHolder text-contText font-medium" placeholder="" required />
-                        </div>
-                        <div class="col-span-1 mt-3">
-                          <label for="first_name" class="block mb-2 text-sm font-medium container-text">Status</label>
-                          <div class="flex mb-2">
-                            <div class="flex items-center me-4">
-                              <input id="active" type="radio" value="" name="inline-radio-group" class="w-4 h-4 text-brown bg-inputColor focus:ring-inputOutline ring-inputOutline focus:ring-1 border-inputOutline">
-                              <label for="active" class="ms-2 text-sm font-medium text-brown">Active</label>
-                            </div>
-                            <div class="flex items-center">
-                              <input id="inactive" type="radio" value="" name="inline-radio-group" class="w-4 h-4 text-brown bg-inputColor focus:ring-inputOutline ring-inputOutline focus:ring-1 border-inputOutline">
-                              <label for="inactive" class="ms-2 text-sm font-medium text-brown">Inactive</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Third row -->
-                      <div class="grid lg:grid-cols-2 grid-cols-1">
-                        <div class="col-span-1 mb-3">
-                          <label for="first_name" class="block mb-2 text-sm font-medium container-text">Remarks</label>
-                          <input type="text" id="first_name" class="text-sm rounded-lg focus:ring-inputFocus focus:border-inputFocus block w-full p-2.5 bg-inputColor border border-inputOutline placeholder-placeHolder text-contText font-medium" placeholder="" required />
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Modal footer -->
-                    <div class="flex items-center p-4 md:p-5 border-t rounded-b border-inputOutline">
-                      <button data-modal-hide="edit-modal" type="button" class="py-2.5 px-5 text-sm font-medium text-white bg-primaryBtn rounded-lg hover:bg-primaryHover focus:ring-1 focus:outline-none focus:ring-primaryBtn">Add</button>
-                      <!-- Cancel Button -->
-                      <button data-modal-hide="edit-modal" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium secondary-btn-1 focus:outline-none bg-inputColor rounded-lg border border-inputOutline hover:bg-logoutBtnHover focus:z-10 focus:ring-4 focus:ring-gray-100">Cancel</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
